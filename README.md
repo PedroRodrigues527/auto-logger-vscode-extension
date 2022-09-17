@@ -1,3 +1,5 @@
+https://marketplace.visualstudio.com/items?itemName=PedroRodrigues.auto-logger
+
 # auto-logger? What is it?
 
 It's a simple Visual Studio Code extension, to help write log, much faster, to improve debug time.
