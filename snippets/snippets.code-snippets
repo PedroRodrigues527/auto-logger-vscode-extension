@@ -1,0 +1,7 @@
+{
+    "Basic Logger":{
+        "prefix": "!l",
+        "body": "console.log('some log')",
+        "description": "Basic log of some basic string",
+    }
+}
