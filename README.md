@@ -34,7 +34,7 @@ None.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Minor changes, documentation improved
 
 ### 0.0.4
 
