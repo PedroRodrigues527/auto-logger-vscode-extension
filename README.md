@@ -20,7 +20,7 @@ None.
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.2
 
 Avaliable for, javascript, python, and php (laravel)
 
