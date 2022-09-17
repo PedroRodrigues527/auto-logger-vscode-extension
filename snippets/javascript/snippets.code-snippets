@@ -1,0 +1,16 @@
+{
+    "Basic Logger":{
+        "prefix": "!lb",
+        "body": "console.log('log')",
+        "description": "Console.log with basic string",
+    },
+    "Variable Logger":{
+        "prefix": "!lv",
+        "body": "console.log($1)",
+        "description": "Empty Console.log",
+    },
+    "Empty string Logger":{
+        "prefix": "!l",
+        "body": "console.log('${1}')"
+    },
+}

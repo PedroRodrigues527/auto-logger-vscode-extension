@@ -1,0 +1,16 @@
+{
+    "Basic Logger":{
+        "prefix": "!lb",
+        "body": "print('log')",
+        "description": "print with basic string",
+    },
+    "Variable Logger":{
+        "prefix": "!lv",
+        "body": "print($1)",
+        "description": "Empty print",
+    },
+    "Empty string Logger":{
+        "prefix": "!l",
+        "body": "print('${1}')"
+    },
+}
