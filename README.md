@@ -1,6 +1,7 @@
-# auto-logger README
+# auto-logger? What is it?
 
-This is the README for your extension "auto-logger". After writing up a brief description, we recommend including the following sections.
+It's a simple Visual Studio Code extension, to help write log, much faster, to improve debug time.
+At the moment, it supports only ***javascript***.
 
 ## Features
 
@@ -14,7 +15,7 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+None.
 
 ## Extension Settings
 
@@ -37,7 +38,7 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
+Initial release of ... 
 
 ### 1.0.1
 
@@ -47,7 +48,6 @@ Fixed issue #.
 
 Added features X, Y, and Z.
 
----
 
 ## Working with Markdown
 
