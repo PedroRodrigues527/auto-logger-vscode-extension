@@ -8,9 +8,25 @@ At the moment, it supports only ***javascript***, ***python*** and ***PHP(larave
 ## Features
 
 Commands avaliable:
+
 !l: logs with "" enableling, debugging with custom string
+
+
+![!l](https://user-images.githubusercontent.com/61146730/190873585-b47b1d68-65a6-44fe-b7ba-98b190051db6.gif)
+
+
+
 !lb: logs with a variable. Eg: !lb -> console.log("log")
+
+
+![!lb](https://user-images.githubusercontent.com/61146730/190873604-87259f5c-c1ba-473a-9564-b5d6b34be072.gif)
+
+
 !lv: logs with out the "'", helping debugging variables
+
+
+![!lv](https://user-images.githubusercontent.com/61146730/190873744-fca610f0-4598-4aa7-8416-3e33244e56f8.gif)
+
 
 ## Requirements
 None.
@@ -20,7 +36,7 @@ None.
 
 Users appreciate release notes as you update your extension.
 
-### 0.0.2
+### 0.0.4
 
 Avaliable for, javascript, python, and php (laravel)
 
