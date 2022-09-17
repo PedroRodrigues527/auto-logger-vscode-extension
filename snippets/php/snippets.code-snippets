@@ -1,0 +1,16 @@
+{
+    "Basic Logger":{
+        "prefix": "!lb",
+        "body": "\\Log::debug('log');",
+        "description": "print with basic string",
+    },
+    "Variable Logger":{
+        "prefix": "!lv",
+        "body": "\\Log::debug($1)",
+        "description": "Empty \\Log::debug",
+    },
+    "Empty string Logger":{
+        "prefix": "!l",
+        "body": "\\Log::debug('${1}')"
+    },
+}

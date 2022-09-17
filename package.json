@@ -20,9 +20,14 @@
       {
         "language": "javascript",
         "path": "./snippets/javascript/snippets.code-snippets"
-      },{
+      },
+      {
         "language": "python",
         "path": "./snippets/python/snippets.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php/snippets.code-snippets"
       }
 
     ]
