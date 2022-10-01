@@ -36,9 +36,9 @@ None.
 
 Minor changes, documentation improved
 
-### 0.0.4
+### 0.0.6
 
-Avaliable for, javascript, python, and php (laravel)
+php log missing ; fix.
 
 
 **Enjoy!**
