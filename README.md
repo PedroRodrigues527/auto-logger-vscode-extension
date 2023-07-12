@@ -51,7 +51,7 @@ None.
 
 PHP/Laravel timer snipper
 
-### current version: 0.0.7
+### current version: 0.0.8
 
 
 **Enjoy!**
