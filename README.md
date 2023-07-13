@@ -49,9 +49,9 @@ None.
 
 ## Release Notes
 
-PHP/Laravel timer snipper
+Snippets fix.
 
-### current version: 0.0.7
+### current version: 0.0.8
 
 
 **Enjoy!**
