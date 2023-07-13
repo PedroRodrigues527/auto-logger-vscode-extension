@@ -49,9 +49,9 @@ None.
 
 ## Release Notes
 
-Snippets fix.
+Snippets fixes
 
-### current version: 0.0.8
+### current version: 0.0.9
 
 
 **Enjoy!**
