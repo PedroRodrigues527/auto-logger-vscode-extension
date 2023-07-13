@@ -6,28 +6,28 @@
     },
     "Variable Logger":{
         "prefix": "!lv",
-        "body": "\\Log::debug($1)",
+        "body": "\\Log::debug($1);",
         "description": "Empty \\Log::debug",
     },
     "Empty string Logger":{
         "prefix": "!l",
-        "body": "\\Log::debug('${1}')"
+        "body": "\\Log::debug('${1}');"
     },
     "Timer":{
         "prefix": "!t",
         "body": 
         [
-            "$$startTime = Carbon::now();",
+            "$startTime = Carbon::now();",
             "\\Log::debug('TIMER START');",
             "//CODE HERE",
             "\\Log::debug('TIMER END');",
             "\\Log::debug('START: ');",
-            "\\Log::debug($$startTime);",
-            "$$endTime = Carbon::now();",
+            "\\Log::debug($startTime);",
+            "$endTime = Carbon::now();",
             "\\Log::debug('END: ');",
-            "\\Log::debug($$endTime);",
+            "\\Log::debug($endTime);",
             "\\Log::debug('END-START(MS): ');",
-            "\\Log::debug($$endTime->diffInMilliseconds($$startTime));",
+            "\\Log::debug($endTime->diffInMilliseconds($startTime));",
         ]
     },
 }

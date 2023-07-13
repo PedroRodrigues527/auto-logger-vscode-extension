@@ -1,7 +1,7 @@
 {
     "Basic Logger":{
         "prefix": "!lb",
-        "body": "\\Log::debug('log')",
+        "body": "console.log()",
         "description": "Console.log with basic string",
     },
     "Variable Logger":{
