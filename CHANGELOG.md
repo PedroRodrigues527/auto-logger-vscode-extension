@@ -1,9 +1,27 @@
 # Change Log
 
-All notable changes to the "auto-logger" extension will be documented in this file.
+## [v.1.1.4]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Change log and version fix
 
-## [Unreleased]
+## [v.0.0.9]
 
-- Initial release
+- Readme update
+
+## [v.0.0.8]
+
+- Php log in javascript snippet fix
+- Missing ; fix
+
+## [v.0.0.7]
+
+- Timer snippet for php/laravel
+
+## [v.0.0.6]
+
+- Missing ; fix
+
+## [v.0.0.5]
+
+- First Release
+- Logs for javascript, python and php

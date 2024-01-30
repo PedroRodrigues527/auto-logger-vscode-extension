@@ -43,26 +43,12 @@ $endTime = Carbon::now();
 
 `!lv` -> `print()` 
 
-## Requirements
-None.
-
 
 ## Release Notes
 
-Snippets fixes
+Change log and version fix
 
-### current version: 0.0.9
+### current version: 1.1.4
 
 
 **Enjoy!**
-
-
-<!--
-![!l](https://user-images.githubusercontent.com/61146730/190873585-b47b1d68-65a6-44fe-b7ba-98b190051db6.gif)
--->
-<!--
-![!lb](https://user-images.githubusercontent.com/61146730/190873604-87259f5c-c1ba-473a-9564-b5d6b34be072.gif)
--->
-<!-- 
-![!lv](https://user-images.githubusercontent.com/61146730/190873744-fca610f0-4598-4aa7-8416-3e33244e56f8.gif)
--->
