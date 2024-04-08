@@ -1,5 +1,9 @@
 # Change Log
 
+## [v.1.2.0]
+
+- Added `print_r` for php
+
 ## [v.1.1.4]
 
 - Change log and version fix

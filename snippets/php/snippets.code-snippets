@@ -13,6 +13,10 @@
         "prefix": "!l",
         "body": "\\Log::debug('${1}');"
     },
+    "Empty string printer":{
+        "prefix": "!p",
+        "body": "print_r('${1}');"
+    },
     "Timer":{
         "prefix": "!t",
         "body": 
