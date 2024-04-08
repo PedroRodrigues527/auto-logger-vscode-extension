@@ -14,7 +14,9 @@ At the moment, it supports only ***javascript***, ***python*** and ***PHP(larave
 
 `!lv` -> `console.log()` 
 
-###### PHP(Laravel)
+###### PHP/Laravel
+`!p` -> `print_r('');`
+
 `!l` -> `\Log::debug('');`
 
 `!lb` -> `\Log::debug('log');` 
@@ -22,7 +24,7 @@ At the moment, it supports only ***javascript***, ***python*** and ***PHP(larave
 `!lv` -> `\Log::debug();` 
 
 `!t`: 
-```
+```php
 $startTime = Carbon::now();
 \Log::debug('TIMER START');
 //CODE HERE
@@ -46,9 +48,9 @@ $endTime = Carbon::now();
 
 ## Release Notes
 
-Change log and version fix
+Added print_r for php
 
-### current version: 1.1.4
+### current version: 1.2.0
 
 
 **Enjoy!**

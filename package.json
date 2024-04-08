@@ -2,7 +2,7 @@
   "name": "auto-logger",
   "displayName": "Auto Logger",
   "description": "Automatically writes log on code",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "engines": {
     "vscode": "^1.71.0"
   },
