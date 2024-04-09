@@ -17,6 +17,18 @@
         "prefix": "!p",
         "body": "print_r('${1}');"
     },
+    "Die":{
+        "prefix": "!dd",
+        "body": "die();"
+    },
+    "Die with message":{
+        "prefix": "!ddm",
+        "body": "die('${1}');"
+    },
+    "Exit":{
+        "prefix": "!ex",
+        "body": "exit();"
+    },
     "Timer":{
         "prefix": "!t",
         "body": 

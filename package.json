@@ -2,7 +2,7 @@
   "name": "auto-logger",
   "displayName": "Auto Logger",
   "description": "Automatically writes log on code",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -19,7 +19,19 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/javascript/snippets.code-snippets"
+        "path": "./snippets/jsbased/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/jsbased/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/jsbased/snippets.code-snippets"
+      },
+      {
+        "language": "cpp",
+        "path": "./snippets/c/snippets.code-snippets"
       },
       {
         "language": "python",

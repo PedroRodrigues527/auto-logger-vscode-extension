@@ -13,4 +13,12 @@
         "prefix": "!l",
         "body": "console.log('${1}')"
     },
+    "Debugger":{
+        "prefix": "!d",
+        "body": "debugger;"
+    },
+    "Console Error":{
+        "prefix": "!ce",
+        "body": "console.error('${1}')"
+    },
 }

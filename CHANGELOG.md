@@ -1,5 +1,24 @@
 # Change Log
 
+## [v.2.0.0]
+- New logo
+- Improved README.md
+- Javascript snippets also avaliable for .jsx and .tsx files.
+- New c++ simple logger.
+
+For c++:
+- Added `std::cout`
+- Added snippet for for and while cycles, and switch.
+
+For php:
+- Added `die();`
+- Added `die('');` (with message)
+- Added `exit();`
+
+For javascript:
+- Added `debugger`
+- Added `console.error()`
+
 ## [v.1.2.0]
 
 - Added `print_r` for php
