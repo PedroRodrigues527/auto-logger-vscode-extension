@@ -1,4 +1,6 @@
 # Change Log
+## [v.2.0.1]
+- Application Description updated
 
 ## [v.2.0.0]
 - New logo
