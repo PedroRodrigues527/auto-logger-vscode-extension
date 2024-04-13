@@ -1,4 +1,7 @@
 # Change Log
+## [v.2.1.0]
+- Function and class snippets added
+
 ## [v.2.0.1]
 - Application Description updated
 
