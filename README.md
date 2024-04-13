@@ -48,6 +48,45 @@ switch (${1:variable}) {
 }
 ```
 
+### Integer function
+```cpp
+!ifunc
+int test()
+{
+    //
+}
+
+```
+
+### Void function
+```cpp
+!vfunc
+void test()
+{
+    //
+}
+```
+
+### String function
+```cpp
+!sfunc
+std::string test()
+{
+    //
+}
+
+```
+
+### Class
+```cpp
+!cls
+class Test
+{
+    public:
+        //
+}
+```
+
 ## JavaScript/JSX/TSX Snippets
 
 ### Basic Logger
@@ -78,6 +117,24 @@ debugger;
 ```javascript
 !ce
 console.error('${1}')
+```
+
+### Function
+```javascript
+!f
+function test()
+{
+    //
+}
+```
+
+### Const function
+```javascript
+!cf
+const test = () => 
+{
+    //
+}
 ```
 
 ## PHP/Laravel Snippets
@@ -140,6 +197,45 @@ $endTime = Carbon::now();
 \Log::debug($endTime->diffInMilliseconds($startTime));
 ```
 
+### Private function
+```php
+!prf
+private function test()
+{
+    //
+}
+```
+
+### Public function
+```php
+!puf
+public function test()
+{
+    //
+}
+```
+
+### Protected function
+```php
+!ptf
+protected function test()
+{
+    //
+}
+```
+
+### Class
+```php
+!cls
+class teste
+{
+    public function __construct()
+    {
+        //,
+    }
+}
+```
+
 ## Python Snippets
 
 ### Basic Logger
@@ -160,6 +256,13 @@ print($1)
 print('${1}')
 ```
 
+### Function
+```python
+!f
+def teste():
+    #teste
+```
+
 ---
 
 Feel free to contribute by adding more snippets or suggesting improvements. If you encounter any issues, please report them in the "Issues" section.
@@ -167,24 +270,8 @@ Feel free to contribute by adding more snippets or suggesting improvements. If y
 **License:** This project is licensed under the [MIT License](LICENSE).
 
 ## Release Notes
-- New logo
-- Improved README.md
-- Javascript snippets also avaliable for .jsx and .tsx files.
-- New c++ simple logger.
+- Add function and class generator snippets for js based, c++, php, and python.
 
-For c++:
-- Added `std::cout`
-- Added snippet for for and while cycles, and switch.
-
-For php:
-- Added `die();`
-- Added `die('');` (with message)
-- Added `exit();`
-
-For javascript:
-- Added `debugger`
-- Added `console.error()`
-
-### Current version: 2.0.0
+### Current version: 2.1.0
 
 **Enjoy!**
