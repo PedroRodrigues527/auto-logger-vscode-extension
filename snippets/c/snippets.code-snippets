@@ -33,6 +33,43 @@
             "\t\t${6:// code...}",
             "}"
         ],
-    }
+    },
+    "Int function": {
+        "prefix": "!ifunc",
+        "body": [
+            "int ${1}()",
+            "{",
+            "\t${2:// code...}",
+            "}"
+        ],
+    },
+    "Void function": {
+        "prefix": "!vfunc",
+        "body": [
+            "void ${1}()",
+            "{",
+            "\t${2:// code...}",
+            "}"
+        ],
+    },
+    "String function": {
+        "prefix": "!sfunc",
+        "body": [
+            "std::string ${1}()",
+            "{",
+            "\t${2:// code...}",
+            "}"
+        ],
+    },
+    "Class": {
+        "prefix": "!cls",
+        "body": [
+            "class ${1}",
+            "{",
+            "public:",
+            "\t${2:// code...}",
+            "};"
+        ],
+    },
     
 }

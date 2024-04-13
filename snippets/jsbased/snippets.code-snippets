@@ -21,4 +21,25 @@
         "prefix": "!ce",
         "body": "console.error('${1}')"
     },
+    "Function" : {
+        "prefix": "!f",
+        "body": 
+        [
+            "function ${1}()",
+            "{",
+            "    //",
+            "}"
+        ]
+    },
+
+    "Const function": {
+        "prefix": "!cf",
+        "body": 
+        [
+            "const ${1} = () =>",
+            "{",
+            "    //",
+            "}"
+        ]
+    },
 }

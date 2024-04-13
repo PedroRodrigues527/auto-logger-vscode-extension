@@ -13,4 +13,12 @@
         "prefix": "!l",
         "body": "print('${1}')"
     },
+    "Function" : {
+        "prefix": "!f",
+        "body": 
+        [
+            "def ${1}():",
+            "    #code"
+        ]
+    },
 }

@@ -46,4 +46,47 @@
             "\\Log::debug($endTime->diffInMilliseconds($startTime));",
         ]
     },
+    "Private function":{
+        "prefix": "!prf",
+        "body": 
+        [
+            "private function ${1}()",
+            "{",
+            "    //",
+            "}"
+        ]
+    },
+    "Public function":{
+        "prefix": "!puf",
+        "body": 
+        [
+            "public function ${1}()",
+            "{",
+            "    //",
+            "}"
+        ]
+    },
+    "Protected function":{
+        "prefix": "!ptf",
+        "body": 
+        [
+            "protected function ${1}()",
+            "{",
+            "    //",
+            "}"
+        ]
+    },
+    "Class":{
+        "prefix": "!cls",
+        "body": 
+        [
+            "class ${1}",
+            "{",
+            "    public function __construct()",
+            "    {",
+            "        //",
+            "    }",
+            "}"
+        ]
+    },
 }
