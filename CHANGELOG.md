@@ -1,4 +1,8 @@
 # Change Log
+
+## [v.3.0.0]
+- Extension (php-helper) to convert array to object, and vice-versa:  `` $t->b to $t['b'] ``
+
 ## [v.2.1.0]
 - Function and class snippets added
 

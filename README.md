@@ -3,6 +3,18 @@
 It's a simple Visual Studio Code extension, to help write log, much faster, to improve debug time.
 Contains a collection of code snippets for various programming languages to enhance your coding experience.
 
+## php-helper
+To use this features, search the commands on: ``ctrl + shift + p``
+This extension, is responsable to:
+
+### Convert php object to php array
+Command: 
+``To php array``
+
+### Convert php array to php object
+Command: 
+``To php object``
+
 ## Supported Languages
 - C++
 - JS/JSX/TSX
@@ -270,8 +282,8 @@ Feel free to contribute by adding more snippets or suggesting improvements. If y
 **License:** This project is licensed under the [MIT License](LICENSE).
 
 ## Release Notes
-- Add function and class generator snippets for js based, c++, php, and python.
+- Extension (php-helper) to convert array to object, and vice-versa:  `` $t->b to $t['b'] ``
 
-### Current version: 2.1.0
+### Current version: 3.0.0
 
 **Enjoy!**
