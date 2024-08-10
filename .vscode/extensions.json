@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "Pedro Rodrigues.auto-logger"
+        "Pedro Rodrigues.auto-logger",
+        "dbaeumer.vscode-eslint", 
+        "amodio.tsl-problem-matcher", 
+        "ms-vscode.extension-test-runner"
     ]
 }

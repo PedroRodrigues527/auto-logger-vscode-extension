@@ -1,8 +1,9 @@
 {
   "name": "auto-logger",
   "displayName": "Auto Logger",
-  "description": "Automatically writes logs on code",
-  "version": "2.1.0",
+  "description": "Automatically writes logs on code and helps php convert arrays in php (array) and objects in php (object)",
+  "version": "3.0.0",
+
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -13,8 +14,15 @@
   },
   "icon": "icon.png",
   "categories": [
-    "Snippets"
+    "Other"
   ],
+  "activationEvents": [
+    "php-helper.helloWorld",
+    "php-helper.toArr",
+    "php-helper.toObj",
+    "onLanguage:php"
+  ],
+  "main": "./dist/extension.js",
   "contributes": {
     "snippets": [
       {
@@ -42,6 +50,48 @@
         "path": "./snippets/php/snippets.code-snippets"
       }
 
+    ],
+    "commands": [
+      {
+        "command": "php-helper.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "php-helper.toArr",
+        "title": "To php array"
+      },
+      {
+        "command": "php-helper.toObj",
+        "title": "To php object"
+      }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.92.0",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.11.0",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0",
+    "eslint": "^8.57.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@microsoft/dynamicproto-js": "github:microsoft/dynamicproto-js"
   }
 }
