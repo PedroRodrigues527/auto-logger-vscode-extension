@@ -284,6 +284,4 @@ Feel free to contribute by adding more snippets or suggesting improvements. If y
 ## Release Notes
 - Extension (php-helper) to convert array to object, and vice-versa:  `` $t->b to $t['b'] ``
 
-### Current version: 3.0.0
-
 **Enjoy!**
