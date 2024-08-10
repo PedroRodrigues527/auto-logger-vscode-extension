@@ -3,9 +3,8 @@
   "displayName": "Auto Logger",
   "description": "Automatically writes logs on code and helps php convert arrays in php (array) and objects in php (object)",
   "version": "3.0.0",
-
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.92.1"
   },
   "publisher": "PedroRodrigues",
   "repository": {
