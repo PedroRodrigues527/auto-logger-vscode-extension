@@ -4,18 +4,22 @@ It's a simple Visual Studio Code extension, to help write log, much faster, to i
 Contains a collection of code snippets for various programming languages to enhance your coding experience.
 
 ## php-helper
+
 To use this features, search the commands on: ``ctrl + shift + p``
 This extension, is responsable to:
 
 ### Convert php object to php array
-Command: 
+
+Command:
 ``To php array``
 
 ### Convert php array to php object
-Command: 
+
+Command:
 ``To php object``
 
 ## Supported Languages
+
 - C++
 - JS/JSX/TSX
 - PHP/Laravel
@@ -24,12 +28,14 @@ Command:
 ## C++ Snippets
 
 ### Empty String Logger
+
 ```cpp
 !l
 std::cout << "${1:Message}" << std::endl;
 ```
 
 ### For Loop
+
 ```cpp
 !fr
 for (int ${1:i} = 0; ${1:i} < ${2:count}; ${1:i}++) {
@@ -38,6 +44,7 @@ for (int ${1:i} = 0; ${1:i} < ${2:count}; ${1:i}++) {
 ```
 
 ### While Loop
+
 ```cpp
 !wh
 while (${1:condition}) {
@@ -46,6 +53,7 @@ while (${1:condition}) {
 ```
 
 ### Switch Case
+
 ```cpp
 !sw
 switch (${1:variable}) {
@@ -61,6 +69,7 @@ switch (${1:variable}) {
 ```
 
 ### Integer function
+
 ```cpp
 !ifunc
 int test()
@@ -71,6 +80,7 @@ int test()
 ```
 
 ### Void function
+
 ```cpp
 !vfunc
 void test()
@@ -80,6 +90,7 @@ void test()
 ```
 
 ### String function
+
 ```cpp
 !sfunc
 std::string test()
@@ -90,6 +101,7 @@ std::string test()
 ```
 
 ### Class
+
 ```cpp
 !cls
 class Test
@@ -102,36 +114,42 @@ class Test
 ## JavaScript/JSX/TSX Snippets
 
 ### Basic Logger
+
 ```javascript
 !lb
 console.log()
 ```
 
 ### Variable Logger
+
 ```javascript
 !lv
 console.log($1)
 ```
 
 ### Empty String Logger
+
 ```javascript
 !l
 console.log('${1}')
 ```
 
 ### Debugger
+
 ```javascript
 !d
 debugger;
 ```
 
 ### Console Error
+
 ```javascript
 !ce
 console.error('${1}')
 ```
 
 ### Function
+
 ```javascript
 !f
 function test()
@@ -141,6 +159,7 @@ function test()
 ```
 
 ### Const function
+
 ```javascript
 !cf
 const test = () => 
@@ -152,48 +171,56 @@ const test = () =>
 ## PHP/Laravel Snippets
 
 ### Basic Logger
+
 ```php
 !lb
 \Log::debug('log');
 ```
 
 ### Variable Logger
+
 ```php
 !lv
 \Log::debug($1);
 ```
 
 ### Empty String Logger
+
 ```php
 !l
 \Log::debug('${1}');
 ```
 
 ### Empty String Printer
+
 ```php
 !p
 print_r('${1}');
 ```
 
 ### Die
+
 ```php
 !dd
 die();
 ```
 
 ### Die with Message
+
 ```php
 !ddm
 die('${1}');
 ```
 
 ### Exit
+
 ```php
 !ex
 exit();
 ```
 
 ### Timer
+
 ```php
 !t
 $startTime = Carbon::now();
@@ -210,6 +237,7 @@ $endTime = Carbon::now();
 ```
 
 ### Private function
+
 ```php
 !prf
 private function test()
@@ -219,6 +247,7 @@ private function test()
 ```
 
 ### Public function
+
 ```php
 !puf
 public function test()
@@ -228,6 +257,7 @@ public function test()
 ```
 
 ### Protected function
+
 ```php
 !ptf
 protected function test()
@@ -237,6 +267,7 @@ protected function test()
 ```
 
 ### Class
+
 ```php
 !cls
 class teste
@@ -251,24 +282,28 @@ class teste
 ## Python Snippets
 
 ### Basic Logger
+
 ```python
 !lb
 print('log')
 ```
 
 ### Variable Logger
+
 ```python
 !lv
 print($1)
 ```
 
 ### Empty String Logger
+
 ```python
 !l
 print('${1}')
 ```
 
 ### Function
+
 ```python
 !f
 def teste():
@@ -282,6 +317,7 @@ Feel free to contribute by adding more snippets or suggesting improvements. If y
 **License:** This project is licensed under the [MIT License](LICENSE).
 
 ## Release Notes
-- Extension (php-helper) to convert array to object, and vice-versa:  `` $t->b to $t['b'] ``
+
+- Webpack vulnerability fix
 
 **Enjoy!**

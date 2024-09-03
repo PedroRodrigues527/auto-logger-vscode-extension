@@ -2,7 +2,7 @@
   "name": "auto-logger",
   "displayName": "Auto Logger",
   "description": "Automatically writes logs on code and helps php convert arrays in php (array) and objects in php (object)",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "engines": {
     "vscode": "^1.92.1"
   },
@@ -87,7 +87,7 @@
     "eslint": "^8.57.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.4.5",
-    "webpack": "^5.92.1",
+    "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
