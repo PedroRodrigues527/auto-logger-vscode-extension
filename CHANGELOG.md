@@ -1,5 +1,9 @@
 # Change Log
 
+## [v.3.0.2]
+
+- Glob vulnerability fix
+
 ## [v.3.0.1]
 
 - Webpack vulnerability fix
