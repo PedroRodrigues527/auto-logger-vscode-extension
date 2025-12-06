@@ -1,5 +1,9 @@
 # Change Log
 
+## [v.3.1.0]
+
+- C snippets for C++ and C
+
 ## [v.3.0.2]
 
 - Glob vulnerability fix

@@ -2,7 +2,7 @@
   "name": "auto-logger",
   "displayName": "Auto Logger",
   "description": "Automatically writes logs on code and helps php convert arrays in php (array) and objects in php (object)",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "engines": {
     "vscode": "^1.92.1"
   },
@@ -35,6 +35,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/jsbased/snippets.code-snippets"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/c/snippets.code-snippets"
       },
       {
         "language": "cpp",
