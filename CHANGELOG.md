@@ -1,5 +1,13 @@
 # Change Log
 
+## [v.3.1.1]
+
+- Security update js-yaml
+
+## [v.3.1.0]
+
+- C snippets for C++ and C
+
 ## [v.3.1.0]
 
 - C snippets for C++ and C
