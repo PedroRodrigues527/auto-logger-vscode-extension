@@ -1,7 +1,7 @@
 # auto-logger
+auto-logger is a simple Visual Studio Code extension designed to help you write logs faster and improve debugging time. It provides a collection of code snippets for multiple programming languages, making it easier to add consistent and useful logs during development.
 
-It's a simple Visual Studio Code extension, to help write log, much faster, to improve debug time.
-Contains a collection of code snippets for various programming languages to enhance your coding experience.
+The extension is available on the Visual Studio Code Marketplace, <u><strong>with over 200 installs</strong></u>.
 
 ## php-helper
 
