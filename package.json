@@ -2,7 +2,7 @@
   "name": "auto-logger",
   "displayName": "Auto Logger",
   "description": "Automatically writes logs on code and helps php convert arrays in php (array) and objects in php (object)",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "engines": {
     "vscode": "^1.92.1"
   },
@@ -52,7 +52,6 @@
         "language": "php",
         "path": "./snippets/php/snippets.code-snippets"
       }
-
     ],
     "commands": [
       {
@@ -86,7 +85,6 @@
     "@types/vscode": "^1.92.0",
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.11.0",
-    "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.4.0",
     "eslint": "^8.57.0",
     "ts-loader": "^9.5.1",
