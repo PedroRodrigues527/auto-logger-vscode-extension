@@ -318,6 +318,6 @@ Feel free to contribute by adding more snippets or suggesting improvements. If y
 
 ## Release Notes
 
-- Webpack vulnerability fix
+- NPM vulnerability fix
 
 **Enjoy!**
