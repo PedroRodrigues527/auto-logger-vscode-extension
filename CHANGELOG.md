@@ -1,5 +1,13 @@
 # Change Log
 
+## [v.3.1.3]
+
+- Security fix
+
+## [v.3.1.2]
+
+- Security fix
+
 ## [v.3.1.1]
 
 - Security update js-yaml
