@@ -1,5 +1,9 @@
 # Change Log
 
+## [v.3.1.6]
+
+- Security fix
+  
 ## [v.3.1.5]
 
 - Security fix
