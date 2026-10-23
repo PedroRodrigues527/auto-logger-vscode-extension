@@ -1,4 +1,11 @@
-# auto-logger
+# (DEPRECATED) auto-logger
+
+## Final note:
+> [!NOTE]  
+> Sad goodbye to my first VSCode extension, built in the pre-AI era. It was a usefull and fun project. 
+> However, it has been a difficult time to keep this project alive, so I have unfortunately decided to bring it to an end. 
+> Bye auto-logger!
+
 auto-logger is a simple Visual Studio Code extension designed to help you write logs faster and improve debugging time. It provides a collection of code snippets for multiple programming languages, making it easier to add consistent and useful logs during development.
 
 The extension is available on the Visual Studio Code Marketplace, <u><strong>with over 200 installs</strong></u>.

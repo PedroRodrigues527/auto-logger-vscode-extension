@@ -1,8 +1,8 @@
 {
   "name": "auto-logger",
-  "displayName": "Auto Logger",
-  "description": "Automatically writes logs on code and helps php convert arrays in php (array) and objects in php (object)",
-  "version": "3.1.8",
+  "displayName": "Auto Logger [ARCHIVED]",
+  "description": "[NOT MAINTAINED] Automatically writes logs on code and helps php convert arrays in php (array) and objects in php (object)",
+  "version": "3.1.9",
   "engines": {
     "vscode": "^1.92.1"
   },
@@ -14,6 +14,11 @@
   "icon": "icon.png",
   "categories": [
     "Other"
+  ],
+  "tags": [
+    "archived",
+    "deprecated",
+    "unmaintained"
   ],
   "activationEvents": [
     "php-helper.helloWorld",
@@ -79,7 +84,7 @@
     "lint": "eslint src --ext ts",
     "test": "vscode-test"
   },
-"devDependencies": {
+  "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@types/vscode": "^1.92.0",
