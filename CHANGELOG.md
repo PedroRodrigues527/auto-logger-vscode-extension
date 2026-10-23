@@ -1,5 +1,10 @@
 # Change Log
 
+## [v.3.1.9]
+
+- **This extension is no longer maintained or actively supported.**
+- The project has reached its end of life and will not receive further updates or bug fixes.
+
 ## [v.3.1.8]
 
 - Security fix
